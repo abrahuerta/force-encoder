@@ -1,0 +1,208 @@
+@font-face {
+    font-family:jedi;
+    src: url(resources/star_jedi/starjedi/Starjedi.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    position: relative;
+    width: auto;
+    height: auto;
+    background-image: url(resources/background-stars.jpeg);
+}
+
+.title{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+header p {
+    font-family: jedi;
+    font-size: 40px;
+    color: yellow;
+}
+
+#area1{
+    position: absolute;
+    width: 800px;
+    height: 488px;
+    left: 150px;
+    top: 200px;
+    padding: 15px 0 0 15px;
+    background-color: rgb(31, 33, 36);
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: white;
+
+    font-family: jedi;
+    font-size: 15px;
+    color: yellow;
+}
+
+#area1::placeholder{
+    color: yellow;
+}
+
+.textarea-output{
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    left: 1050px;
+    top: 100px;
+    padding: 12px 0 0 10px;
+    background-color: rgb(31, 33, 36);
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: white;
+}
+
+#yoda{
+    position: relative;
+    top: 100px;
+    left: 12px;
+}
+
+#texto-nada{
+    margin-top: 80px;
+    text-align: center;
+    font-family: jedi;
+    font-size: 15px;
+    color: yellow;
+}
+
+#area2{
+   width: 385px;
+   height: 450px;
+   padding-top: 5px;
+   background: none;
+   border: none;
+
+   font-family: jedi;
+   font-size: 15px;
+   color: yellow;
+}
+
+.botones{
+    position: relative;
+    width:800px;
+    height:100px;
+    left: 150px;
+    top: 700px;
+}
+
+.boton{
+    width: 200px;
+    height: 60px;
+    border-radius: 25px;
+    background-color: yellow;
+
+    font-family: jedi;
+    font-size: 15px;
+}
+
+.boton:active{
+    width: 180px;
+    height: 55px;
+}
+
+#boton-1{
+    position: relative;
+    top: 30px;
+    left: 110px;
+}
+
+#boton-2{
+    position: relative;
+    top: 30px;
+    left: 300px;
+}
+
+#boton-3{
+    position: relative;
+    top: 160px;
+    left: 100px;
+    
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .title{
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    #area1{
+        width: 300px;
+        height: 400px;
+        left: 40px;
+        top: 150px;
+    }
+
+    .botones{
+        top: 550px;
+        left: 5px;
+        width: 400px;
+        height: 100px;
+    }
+
+    .boton{
+        width: 100px;
+        height: 50px;
+        font-size: 10px;
+    }
+
+    .boton:active{
+        width: 80px;
+        height: 45px;
+    }
+    
+    #boton-1{
+        position: relative;
+        top: 30px;
+        left: 60px;
+    }
+    
+    #boton-2{
+        position: relative;
+        top: 30px;
+        left: 110px;
+    }
+
+    .textarea-output{
+        width: 300px;
+        height: 350px;
+        left: 40px;
+        top: 640px;
+    }
+
+    #yoda{
+        position: relative;
+        transform: scale(0.5);
+        top: 0px;
+        left: 0px;
+    }
+
+    #texto-nada{
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    #area2{
+        width: 300px;
+        height: 450px;
+        padding-top: 5px;
+    }
+
+    #boton-3{
+        position: absolute;
+        left: 100px;
+        top: 300px
+    }
+
+} 

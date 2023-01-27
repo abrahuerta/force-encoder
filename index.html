@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Encriptador de la fuerza</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="icon" href="resources/icono.png">
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+</head>
+<body>
+   <header>
+        <div class = "title">
+            <p>Encriptador de la fuerza</p>
+        </div>
+   </header>
+
+   <main>
+
+    <div class="textarea-input">
+        <textarea id="area1" placeholder="¿Te dice algo la fuerza?..."></textarea>
+    </div>
+
+    <div class="botones">
+        <button class="boton" id="boton-1" onclick="encriptar()">Encriptar</button>
+        <button class="boton" id="boton-2" onclick="desencriptar()">Desencriptar</button>
+        <script src="script.js"></script>
+    </div>
+
+    <div class="textarea-output">
+        <img src="resources/yoda.png" id = "yoda" alt="yoda">
+        <p id="texto-nada">Nada escrito hay aun</p>
+        <textarea id="area2" readonly></textarea>
+        <button class="boton" id="boton-3" onclick="copiar()">Copiar</button>
+    </div>
+   </main>
+</body>
+</html>
